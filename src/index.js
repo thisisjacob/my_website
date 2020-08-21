@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import './layout.css';
 import App from './App';
-import NavBar from './NavBar';
+import NavBar from './layout_elements/NavBar';
 import * as serviceWorker from './serviceWorker';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 

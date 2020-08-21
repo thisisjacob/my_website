@@ -3,12 +3,12 @@ import './App.css';
 import Introduction from './Introduction.js';
 import ProjectsSection from './ProjectsSection.js';
 
-function App() {
+function App(props) {
   var testing = [];
   return (
   	<main class="container" role="main">
 		<Introduction />
-		<ProjectsSection projectInfoObjects={testing}/>
+		<ProjectsSection projectInfoObjects={props.projectInfoObjects}/>
 	</main>
   );
 }

@@ -4,10 +4,11 @@ import Introduction from './Introduction.js';
 import ProjectsSection from './ProjectsSection.js';
 
 function App() {
+  var testing = [];
   return (
   	<main class="container" role="main">
 		<Introduction />
-		<ProjectsSection />
+		<ProjectsSection projectInfoObjects={testing}/>
 	</main>
   );
 }

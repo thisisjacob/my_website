@@ -3,6 +3,8 @@ import Project from './Project.js';
 import image from '../logo192.png';
 
 function ProjectContainer(props) {
+	const rowWidth = 3;
+	const rowsNum = props.projectInfoObjects.length % rowWidth;
 	return (
 		<div class="container-lg">
 			<div class="row">

@@ -7,7 +7,7 @@ function ProjectPageSection(props) {
 	const rowsNum = props.projectInfoObjects.length % rowWidth;
 	return (
 		<div class="container-lg">
-			<ProjectContainer />
+			<ProjectContainer items={props.projectInfoObjects.slice(0, 3)}/>
 		</div>
 	);
 }

@@ -12,7 +12,32 @@ export const projects = [{
 	title: "Test3",
 	imageLocation: '../logo192.png',
 	linkDestination: 'https://www.google.com/',
-	altText: "react logo"}
+	altText: "react logo"},
+	{
+	title: "Test4",
+	imageLocation: '../logo192.png',
+	linkDestination: 'https://www.google.com/',
+	altText: "react logo"},
+	{
+	title: "Test5",
+	imageLocation: '../logo192.png',
+	linkDestination: 'https://www.google.com/',
+	altText: "react logo"},
+	{
+	title: "Test6",
+	imageLocation: '../logo192.png',
+	linkDestination: 'https://www.google.com/',
+	altText: "react logo"},
+	{
+	title: "Test7",
+	imageLocation: '../logo192.png',
+	linkDestination: 'https://www.google.com/',
+	altText: "react logo"},
+	{
+	title: "Test8",
+	imageLocation: '../logo192.png',
+	linkDestination: 'https://www.google.com/',
+	altText: "react logo"},
 ]
 
 

@@ -1,4 +1,4 @@
-export const projects = [{
+export const projectsList = [{
 	title: "Test1",
 	imageLocation: '../logo192.png',
 	linkDestination: 'https://www.google.com/',

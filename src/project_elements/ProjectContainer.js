@@ -2,19 +2,21 @@ import React from 'react';
 import Project from './Project.js';
 
 import { projectRowWidth } from '../data_classes/project_options.js';
+import { projectsList } from '../data_classes/project_objects.js';
 
 function ProjectContainer(props) {
 	const width = projectRowWidth;
+	const items = projectsList;
 	
 	var currentRowCount = 0;
 	var itemsByRow = [];
 	var currentRowItems = [];
 	
-	for (let i = 0; i < props.items.length;) {
+	for (let i = 0; i < items.length;) {
 		console.log(currentRowItems);
 		currentRowCount++;
 		if (currentRowCount <= width) {
-			currentRowItems.push(props.items[i]);
+			currentRowItems.push(items[i]);
 			i++;
 		}
 		else {

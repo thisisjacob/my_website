@@ -4,7 +4,7 @@ import ProjectContainer from './ProjectContainer.js';
 
 function ProjectPageSection(props) {
 	return (
-			<ProjectContainer items={props.projectInfoObjects} />
+			<ProjectContainer/>
 	);
 }
 

@@ -8,7 +8,7 @@ function App(props) {
   return (
   	<main class="container" role="main">
 		<Introduction />
-		<ProjectPageSection projectInfoObjects={props.projectInfoObjects}/>
+		<ProjectPageSection/>
 	</main>
   );
 }

@@ -8,18 +8,22 @@ function ProjectContainer(props) {
 	var itemsByRow = [];
 	var currentRowItems = [];
 	
-	for (let i = 0; i < props.items.length; i++) {
-		currentRowCount = currentRowCount + 1;
+	for (let i = 0; i < props.items.length;) {
+		console.log(currentRowItems);
+		currentRowCount++;
 		if (currentRowCount <= width) {
 			currentRowItems.push(props.items[i]);
+			i++;
 		}
 		else {
 			currentRowCount = 0;
 			itemsByRow.push(currentRowItems);
 			currentRowItems = [];
 		};
-		//console.log(currentRowItems);
-		//console.log(i);
+	}
+	// needed when number of items is not divisable by the width
+	if (currentRowItems.length > 0) {
+		itemsByRow.push(currentRowItems);
 	}
 	
 	const projectRows = itemsByRow.map((itemGroup) => 

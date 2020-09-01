@@ -1,43 +1,21 @@
-export const projectsList = [{
-	title: "Test1",
-	imageLocation: '../logo192.png',
-	linkDestination: 'https://www.google.com/',
-	altText: 'react logo'},
+export const projectsList = [
 	{
-	title: "Test2",
-	imageLocation: '../logo192.png',
-	linkDestination: 'https://www.google.com/',
-	altText: "react logo"},
+		title: "Game of Life",
+		imageLocation: '',
+		linkDestination: 'https://github.com/thisisjacob/GameOfLife',
+		altText: 'Pixels representing the game of life spread throughout a screen'},
 	{
-	title: "Test3",
-	imageLocation: '../logo192.png',
-	linkDestination: 'https://www.google.com/',
-	altText: "react logo"},
+		title: 'Hack Assembler',
+		imageLocation: '',
+		linkDestination: 'https://github.com/thisisjacob/HackAssembler',
+		altText: 'Assembler' 
+	},
 	{
-	title: "Test4",
-	imageLocation: '../logo192.png',
-	linkDestination: 'https://www.google.com/',
-	altText: "react logo"},
-	{
-	title: "Test5",
-	imageLocation: '../logo192.png',
-	linkDestination: 'https://www.google.com/',
-	altText: "react logo"},
-	{
-	title: "Test6",
-	imageLocation: '../logo192.png',
-	linkDestination: 'https://www.google.com/',
-	altText: "react logo"},
-	{
-	title: "Test7",
-	imageLocation: '../logo192.png',
-	linkDestination: 'https://www.google.com/',
-	altText: "react logo"},
-	{
-	title: "Test8",
-	imageLocation: '../logo192.png',
-	linkDestination: 'https://www.google.com/',
-	altText: "react logo"},
+	title: 'This Website!',
+	imageLocation: '',
+	linkDestination: 'https://github.com/thisisjacob/my_website',
+	altText: 'Image of this Website'
+	}
 ]
 
 

@@ -6,7 +6,7 @@ function Project(props) {
 			<div class="card" style={{width:300}}>
 				<h3 class="card-title">{props.projectName}</h3>
 				<img class="card-img" src={props.imageLocation} alt-text={props.altText}></img>
-				<a href={props.linkLocation}>Link</a>
+				<a href={props.linkLocation} class='btn btn-primary'>Link</a>
 			</div>
 		</div>
 	);

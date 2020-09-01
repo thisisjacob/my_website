@@ -4,6 +4,7 @@ import image from '../logo192.png';
 
 function ProjectContainer(props) {
 	const width = 3; //set to be passed by prop later
+	
 	var currentRowCount = 0;
 	var itemsByRow = [];
 	var currentRowItems = [];
@@ -28,7 +29,7 @@ function ProjectContainer(props) {
 	
 	const projectRows = itemsByRow.map((itemGroup) => 
 		itemGroup.map((item) =>
-			<div name="project row" class="row">
+			<div name="project" class="col-{width}">
 			<Project projectName={item.title} 
 			imageLocation={item.imageLocation}
 			linkLocation={item.linkDestination}
@@ -39,7 +40,7 @@ function ProjectContainer(props) {
 	
 	
 	const projects = projectRows.map((rows) => 
-		<div name="project rows" class="row">
+		<div name="project rows" class="row mt-3">
 			{rows}
 		</div>
 	);

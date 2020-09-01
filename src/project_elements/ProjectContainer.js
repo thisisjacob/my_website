@@ -1,9 +1,10 @@
 import React from 'react';
 import Project from './Project.js';
-import image from '../logo192.png';
+
+import { projectRowWidth } from '../data_classes/project_options.js';
 
 function ProjectContainer(props) {
-	const width = 3; //set to be passed by prop later
+	const width = projectRowWidth;
 	
 	var currentRowCount = 0;
 	var itemsByRow = [];

@@ -13,7 +13,6 @@ function ProjectContainer(props) {
 	var currentRowItems = [];
 	
 	for (let i = 0; i < items.length;) {
-		console.log(currentRowItems);
 		currentRowCount++;
 		if (currentRowCount <= width) {
 			currentRowItems.push(items[i]);
